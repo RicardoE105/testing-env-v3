@@ -35,7 +35,7 @@
         0
       ],
       "id": "ab783833-8d67-42c4-afbe-5e931726d6d4",
-      "name": "Get row(s)"
+      "name": "Get names"
     }
   ],
   "connections": {
@@ -43,14 +43,14 @@
       "main": [
         [
           {
-            "node": "Get row(s)",
+            "node": "Get names",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Get row(s)": {
+    "Get names": {
       "main": [
         []
       ]
@@ -61,7 +61,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "0d2f933b-d4f2-4057-8909-e3e85d6e7d7c",
+  "versionId": "56e7df2c-b44d-4de6-a710-a00ca487bf01",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",
