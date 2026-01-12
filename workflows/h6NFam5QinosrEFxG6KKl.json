@@ -36,12 +36,29 @@
       "id": "f12f6e7b-6c91-4294-9d9d-e18d2f77fc16",
       "name": "Trigger",
       "webhookId": "3b6b5eef-4242-409e-89f8-b0523be65e31"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        464,
+        -16
+      ],
+      "id": "b2323105-4a58-4ed1-b684-c8effeecef43",
+      "name": "No Operation, do nothing"
     }
   ],
   "connections": {
     "Get names": {
       "main": [
-        []
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Trigger": {
@@ -61,7 +78,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "d7b518cf-09cc-4a81-ad0c-f2f693604b46",
+  "versionId": "012e84e5-ef9c-4750-8b68-cc9e36b42f6d",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",
