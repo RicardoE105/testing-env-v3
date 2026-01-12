@@ -1,0 +1,73 @@
+{
+  "id": "h6NFam5QinosrEFxG6KKl",
+  "name": "sin_testwf",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "3b6b5eef-4242-409e-89f8-b0523be65e31",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "f12f6e7b-6c91-4294-9d9d-e18d2f77fc16",
+      "name": "Webhook",
+      "webhookId": "3b6b5eef-4242-409e-89f8-b0523be65e31"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "XS8iPH5QX5bvtot6",
+          "mode": "list",
+          "cachedResultName": "sin_dt",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "ab783833-8d67-42c4-afbe-5e931726d6d4",
+      "name": "Get row(s)"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s)": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "0d2f933b-d4f2-4057-8909-e3e85d6e7d7c",
+  "owner": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
