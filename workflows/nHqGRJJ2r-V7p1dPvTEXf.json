@@ -1,0 +1,57 @@
+{
+  "id": "nHqGRJJ2r-V7p1dPvTEXf",
+  "name": "subwf",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "0fb279b5-7529-4fab-a5f8-c1d6082bff46",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "a5f13abb-ccf4-4ac8-bd63-c0e7d8448417",
+      "name": "No Operation, do nothing"
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "0832de2d-ea28-4529-ac21-3eebc90dfc21",
+  "owner": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
