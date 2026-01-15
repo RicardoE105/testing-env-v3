@@ -9,7 +9,7 @@
       "type": "n8n-nodes-base.executeWorkflowTrigger",
       "typeVersion": 1.1,
       "position": [
-        0,
+        -112,
         0
       ],
       "id": "0fb279b5-7529-4fab-a5f8-c1d6082bff46",
@@ -25,10 +25,44 @@
       ],
       "id": "0994fe80-681b-425c-8676-63717ab36288",
       "name": "No Operation, do nothing1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ea6f9b41-9236-4985-a7a9-a01a5d529873",
+              "name": "testVar",
+              "value": "={{ $vars.sinVar }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        176,
+        16
+      ],
+      "id": "e2e833b8-69aa-470c-b7fc-1d5079083026",
+      "name": "Edit Fields"
     }
   ],
   "connections": {
     "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
       "main": [
         [
           {
@@ -45,7 +79,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "3c155374-aba6-46a7-a174-4a0b3e779584",
+  "versionId": "0dc31138-c60f-488b-a345-cc47394897e5",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",

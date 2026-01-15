@@ -1,0 +1,15 @@
+{
+  "id": "Qlu7VysnOFGFve1e",
+  "name": "sinthropic",
+  "type": "anthropicApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "isGlobal": false
+}
