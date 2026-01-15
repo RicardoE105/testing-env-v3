@@ -4,26 +4,6 @@
   "nodes": [
     {
       "parameters": {
-        "operation": "get",
-        "dataTableId": {
-          "__rl": true,
-          "value": "XS8iPH5QX5bvtot6",
-          "mode": "list",
-          "cachedResultName": "sin_dt",
-          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
-        }
-      },
-      "type": "n8n-nodes-base.dataTable",
-      "typeVersion": 1.1,
-      "position": [
-        240,
-        -288
-      ],
-      "id": "ab783833-8d67-42c4-afbe-5e931726d6d4",
-      "name": "Get names"
-    },
-    {
-      "parameters": {
         "path": "3b6b5eef-4242-409e-89f8-b0523be65e31",
         "options": {}
       },
@@ -78,22 +58,11 @@
     }
   ],
   "connections": {
-    "Get names": {
-      "main": [
-        [
-          {
-            "node": "No Operation, do nothing",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Trigger": {
       "main": [
         [
           {
-            "node": "Get names",
+            "node": "No Operation, do nothing",
             "type": "main",
             "index": 0
           }
@@ -117,7 +86,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "75a6dbe4-a720-4733-b6fe-d262d9b87e7e",
+  "versionId": "beff66dd-50ad-4782-9459-ddb2827b94be",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",
