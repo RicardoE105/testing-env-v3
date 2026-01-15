@@ -20,17 +20,6 @@
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
       "position": [
-        208,
-        0
-      ],
-      "id": "a5f13abb-ccf4-4ac8-bd63-c0e7d8448417",
-      "name": "No Operation, do nothing"
-    },
-    {
-      "parameters": {},
-      "type": "n8n-nodes-base.noOp",
-      "typeVersion": 1,
-      "position": [
         416,
         0
       ],
@@ -40,17 +29,6 @@
   ],
   "connections": {
     "When Executed by Another Workflow": {
-      "main": [
-        [
-          {
-            "node": "No Operation, do nothing",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "No Operation, do nothing": {
       "main": [
         [
           {
@@ -67,7 +45,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "532a8695-86e5-44b5-8d00-6310b91a079d",
+  "versionId": "3c155374-aba6-46a7-a174-4a0b3e779584",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",
