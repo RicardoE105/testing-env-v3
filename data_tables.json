@@ -5,16 +5,16 @@
     "projectId": "cmSKUFnSEVLTtlcf",
     "columns": [
       {
-        "id": "EjJ7YY6blmffBLdi",
-        "name": "anothercolumn",
-        "type": "string",
-        "index": 2
-      },
-      {
         "id": "jq51gZIwjEznrWM7",
         "name": "fname",
         "type": "string",
         "index": 0
+      },
+      {
+        "id": "EjJ7YY6blmffBLdi",
+        "name": "hello",
+        "type": "string",
+        "index": 2
       },
       {
         "id": "vaCXURcozeoeXkgP",
