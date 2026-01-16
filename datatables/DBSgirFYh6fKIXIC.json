@@ -7,6 +7,12 @@
       "name": "bohoidas",
       "type": "string",
       "index": 0
+    },
+    {
+      "id": "MbrpiHi0qIorVw0x",
+      "name": "kjkj",
+      "type": "string",
+      "index": 1
     }
   ],
   "ownedBy": {
@@ -15,5 +21,5 @@
     "projectName": "Owner Neightn <test@n8n.io>"
   },
   "createdAt": "2026-01-16T13:09:51.415Z",
-  "updatedAt": "2026-01-16T14:27:11.204Z"
+  "updatedAt": "2026-01-16T21:24:24.478Z"
 }
