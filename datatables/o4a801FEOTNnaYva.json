@@ -14,8 +14,20 @@
       "name": "age",
       "type": "number",
       "index": 1
+    },
+    {
+      "id": "oXPRDOlubfXJq96d",
+      "name": "marca",
+      "type": "string",
+      "index": 2
+    },
+    {
+      "id": "c9vE8oyvSaiBlqrp",
+      "name": "whatever",
+      "type": "string",
+      "index": 3
     }
   ],
   "createdAt": "2026-01-16T00:52:00.169Z",
-  "updatedAt": "2026-01-16T01:42:04.454Z"
+  "updatedAt": "2026-01-16T02:30:01.193Z"
 }
