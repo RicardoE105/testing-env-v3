@@ -8,8 +8,14 @@
       "name": "name",
       "type": "string",
       "index": 0
+    },
+    {
+      "id": "qorg5kGhixCOJSKU",
+      "name": "age",
+      "type": "number",
+      "index": 1
     }
   ],
   "createdAt": "2026-01-16T00:52:00.169Z",
-  "updatedAt": "2026-01-16T00:52:12.873Z"
+  "updatedAt": "2026-01-16T01:42:04.454Z"
 }
