@@ -1,0 +1,31 @@
+{
+  "id": "e2hmR29sY7qB6QkM",
+  "name": "names",
+  "columns": [
+    {
+      "id": "wkQd4edZABhzY7Jg",
+      "name": "firstName",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "aXrP5yhs1x3JyTfb",
+      "name": "lastName",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "LUNgCj7QTujUsqwk",
+      "name": "age",
+      "type": "number",
+      "index": 2
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "createdAt": "2026-01-20T10:22:56.456Z",
+  "updatedAt": "2026-01-20T21:02:20.150Z"
+}
