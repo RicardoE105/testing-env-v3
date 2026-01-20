@@ -139,8 +139,8 @@
       "type": "n8n-nodes-base.dataTable",
       "typeVersion": 1.1,
       "position": [
-        832,
-        -96
+        896,
+        96
       ],
       "id": "9686a38c-b2b3-4c9a-805c-0d09421e048e",
       "name": "Insert row"
@@ -197,8 +197,8 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "triggerCount": 0,
-  "versionId": "b0c7bb6f-83b8-4f2b-8574-660235a068c4",
+  "triggerCount": 1,
+  "versionId": "ba50f6b0-271d-4709-a971-e6d302097789",
   "owner": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",
