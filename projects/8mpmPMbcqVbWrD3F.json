@@ -1,0 +1,16 @@
+{
+  "id": "8mpmPMbcqVbWrD3F",
+  "name": "nikhil",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "variableStubs": []
+}
