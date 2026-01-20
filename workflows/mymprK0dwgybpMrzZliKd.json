@@ -6,7 +6,10 @@
       "parameters": {
         "rule": {
           "interval": [
-            {}
+            {
+              "field": "seconds",
+              "secondsInterval": 10
+            }
           ]
         }
       },
@@ -92,13 +95,24 @@
           "mappingMode": "defineBelow",
           "value": {
             "firstName": "={{ $('DebugHelper').item.json.firstname }}",
-            "age": 23
+            "age": 23,
+            "lastName": "={{ $('DebugHelper').item.json.lastname }}"
           },
           "matchingColumns": [],
           "schema": [
             {
               "id": "firstName",
               "displayName": "firstName",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "lastName",
+              "displayName": "lastName",
               "required": false,
               "defaultMatch": false,
               "display": true,
@@ -184,7 +198,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "c66bcbbb-e107-4014-8951-e2d0f6882c18",
+  "versionId": "b0c7bb6f-83b8-4f2b-8574-660235a068c4",
   "owner": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",
