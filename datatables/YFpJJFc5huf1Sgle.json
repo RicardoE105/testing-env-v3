@@ -1,7 +1,14 @@
 {
   "id": "YFpJJFc5huf1Sgle",
   "name": "new data table",
-  "columns": [],
+  "columns": [
+    {
+      "id": "6TPVDWphqH0DiPaW",
+      "name": "nane",
+      "type": "string",
+      "index": 0
+    }
+  ],
   "ownedBy": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",
@@ -9,5 +16,5 @@
     "personalEmail": "test@n8n.io"
   },
   "createdAt": "2026-01-20T21:00:16.575Z",
-  "updatedAt": "2026-01-20T21:00:16.575Z"
+  "updatedAt": "2026-01-20T21:03:07.143Z"
 }
