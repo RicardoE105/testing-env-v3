@@ -1,6 +1,6 @@
 {
   "id": "h6NFam5QinosrEFxG6KKl",
-  "name": "sin_testwf",
+  "name": "sin_parent_wf",
   "nodes": [
     {
       "parameters": {
@@ -35,10 +35,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "qmvO8mdiIApFYBTW",
+          "value": "XS8iPH5QX5bvtot6",
           "mode": "list",
-          "cachedResultName": "sintable",
-          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/qmvO8mdiIApFYBTW"
+          "cachedResultName": "adore_dt",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
         }
       },
       "type": "n8n-nodes-base.dataTable",
@@ -66,10 +66,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "XS8iPH5QX5bvtot6",
+          "value": "qmvO8mdiIApFYBTW",
           "mode": "list",
-          "cachedResultName": "sin_dt",
-          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
+          "cachedResultName": "fruits_dt",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/qmvO8mdiIApFYBTW"
         }
       },
       "type": "n8n-nodes-base.dataTable",
@@ -122,7 +122,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "5e3181ac-084f-44d5-a560-a487abfdd880",
+  "versionId": "5e041eee-42d3-44a5-be48-0f92ab8b4d8f",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",

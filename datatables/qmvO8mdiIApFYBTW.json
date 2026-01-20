@@ -1,6 +1,6 @@
 {
   "id": "qmvO8mdiIApFYBTW",
-  "name": "sintable",
+  "name": "fruits_dt",
   "columns": [
     {
       "id": "mOSJU2bCJW1jhWK5",
@@ -22,5 +22,5 @@
     "personalEmail": "test@n8n.io"
   },
   "createdAt": "2026-01-20T22:36:04.913Z",
-  "updatedAt": "2026-01-20T22:37:00.243Z"
+  "updatedAt": "2026-01-20T22:52:20.000Z"
 }
