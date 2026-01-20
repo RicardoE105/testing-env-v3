@@ -4,32 +4,6 @@
   "nodes": [
     {
       "parameters": {
-        "path": "3b6b5eef-4242-409e-89f8-b0523be65e31",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2.1,
-      "position": [
-        16,
-        -288
-      ],
-      "id": "f12f6e7b-6c91-4294-9d9d-e18d2f77fc16",
-      "name": "Trigger",
-      "webhookId": "3b6b5eef-4242-409e-89f8-b0523be65e31"
-    },
-    {
-      "parameters": {},
-      "type": "n8n-nodes-base.noOp",
-      "typeVersion": 1,
-      "position": [
-        464,
-        -288
-      ],
-      "id": "b2323105-4a58-4ed1-b684-c8effeecef43",
-      "name": "No Operation, do nothing"
-    },
-    {
-      "parameters": {
         "workflowId": {
           "__rl": true,
           "value": "nHqGRJJ2r-V7p1dPvTEXf",
@@ -50,26 +24,88 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.3,
       "position": [
-        672,
+        736,
         -288
       ],
       "id": "7a8d9a07-7361-4ca8-83f6-2950d67dd355",
       "name": "Call 'subwf'"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "qmvO8mdiIApFYBTW",
+          "mode": "list",
+          "cachedResultName": "sintable",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/qmvO8mdiIApFYBTW"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        224,
+        -288
+      ],
+      "id": "55bad51f-0ecf-413f-a4df-3bf8b2efa529",
+      "name": "Get row(s)"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -16,
+        -288
+      ],
+      "id": "02e9341a-9fbb-4a25-82e0-6b6a4d07a3a3",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "XS8iPH5QX5bvtot6",
+          "mode": "list",
+          "cachedResultName": "sin_dt",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        432,
+        -288
+      ],
+      "id": "d4bc8360-a61b-4d3d-a299-576d7d14989d",
+      "name": "Get row(s)1"
     }
   ],
   "connections": {
-    "Trigger": {
+    "Get row(s)": {
       "main": [
         [
           {
-            "node": "No Operation, do nothing",
+            "node": "Get row(s)1",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "No Operation, do nothing": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s)1": {
       "main": [
         [
           {
@@ -86,7 +122,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "beff66dd-50ad-4782-9459-ddb2827b94be",
+  "versionId": "5e3181ac-084f-44d5-a560-a487abfdd880",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",

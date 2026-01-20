@@ -20,7 +20,7 @@
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
       "position": [
-        416,
+        512,
         0
       ],
       "id": "0994fe80-681b-425c-8676-63717ab36288",
@@ -28,26 +28,23 @@
     },
     {
       "parameters": {
-        "assignments": {
-          "assignments": [
-            {
-              "id": "ea6f9b41-9236-4985-a7a9-a01a5d529873",
-              "name": "testVar",
-              "value": "={{ $vars.sinVar }}",
-              "type": "string"
-            }
-          ]
-        },
-        "options": {}
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "XS8iPH5QX5bvtot6",
+          "mode": "list",
+          "cachedResultName": "sin_dt",
+          "cachedResultUrl": "/projects/cmSKUFnSEVLTtlcf/datatables/XS8iPH5QX5bvtot6"
+        }
       },
-      "type": "n8n-nodes-base.set",
-      "typeVersion": 3.4,
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
       "position": [
-        176,
-        16
+        96,
+        0
       ],
-      "id": "e2e833b8-69aa-470c-b7fc-1d5079083026",
-      "name": "Edit Fields"
+      "id": "1c3a942d-0d6c-4679-86c3-97bd1f9efbe0",
+      "name": "Get row(s)"
     }
   ],
   "connections": {
@@ -55,14 +52,14 @@
       "main": [
         [
           {
-            "node": "Edit Fields",
+            "node": "Get row(s)",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Edit Fields": {
+    "Get row(s)": {
       "main": [
         [
           {
@@ -79,7 +76,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "0dc31138-c60f-488b-a345-cc47394897e5",
+  "versionId": "9396ba01-185c-40b7-910a-50d302f40e17",
   "owner": {
     "type": "personal",
     "projectId": "cmSKUFnSEVLTtlcf",

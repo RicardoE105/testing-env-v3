@@ -1,0 +1,26 @@
+{
+  "id": "qmvO8mdiIApFYBTW",
+  "name": "sintable",
+  "columns": [
+    {
+      "id": "mOSJU2bCJW1jhWK5",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "Ih01T67zAFRUrOL0",
+      "name": "qty",
+      "type": "number",
+      "index": 1
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "createdAt": "2026-01-20T22:36:04.913Z",
+  "updatedAt": "2026-01-20T22:37:00.243Z"
+}
