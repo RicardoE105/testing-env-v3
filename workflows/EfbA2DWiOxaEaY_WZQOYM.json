@@ -77,6 +77,60 @@
       ],
       "id": "67259d11-ef5e-4384-bb19-4507e2005bef",
       "name": "Insert row"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        432,
+        0
+      ],
+      "id": "cbee67cd-7672-4a17-81f1-5db9812b429a",
+      "name": "No Operation, do nothing"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "NDyLbsTkehGNrT8G",
+          "mode": "list",
+          "cachedResultName": "emails2",
+          "cachedResultUrl": "/projects/8mpmPMbcqVbWrD3F/datatables/NDyLbsTkehGNrT8G"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "email": "={{ $('DebugHelper').item.json.email }}"
+          },
+          "matchingColumns": [
+            "email"
+          ],
+          "schema": [
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        640,
+        0
+      ],
+      "id": "1822ac98-5548-4403-8c29-f5f75b7c241e",
+      "name": "Insert row1"
     }
   ],
   "connections": {
@@ -101,6 +155,28 @@
           }
         ]
       ]
+    },
+    "Insert row": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "No Operation, do nothing": {
+      "main": [
+        [
+          {
+            "node": "Insert row1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -109,7 +185,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "20dd4063-2229-472f-8ad2-a5d37f2443e0",
+  "versionId": "5e7f16c4-c6e8-4d00-8343-e7c73540f74e",
   "owner": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",

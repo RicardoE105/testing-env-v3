@@ -1,0 +1,19 @@
+{
+  "id": "NDyLbsTkehGNrT8G",
+  "name": "emails2",
+  "columns": [
+    {
+      "id": "oaW2YL5qlXcw3juy",
+      "name": "email",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "createdAt": "2026-01-21T16:23:57.481Z",
+  "updatedAt": "2026-01-21T16:24:00.357Z"
+}
