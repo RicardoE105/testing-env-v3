@@ -3,8 +3,8 @@
   "name": "boberts",
   "columns": [
     {
-      "id": "6dg88vzo3LtoVHwI",
-      "name": "schemasssss",
+      "id": "T9q5DHKvcL8Cq0GW",
+      "name": "SOMETHING",
       "type": "string",
       "index": 0
     }
@@ -16,5 +16,5 @@
     "personalEmail": "test@n8n.io"
   },
   "createdAt": "2026-01-21T07:36:23.962Z",
-  "updatedAt": "2026-01-21T07:36:29.465Z"
+  "updatedAt": "2026-01-21T08:11:57.723Z"
 }

@@ -8,7 +8,7 @@
           "interval": [
             {
               "field": "seconds",
-              "secondsInterval": 10
+              "secondsInterval": 20
             }
           ]
         }
@@ -198,7 +198,7 @@
     "availableInMCP": false
   },
   "triggerCount": 1,
-  "versionId": "521fc087-606b-40d3-a327-92f60a1742d1",
+  "versionId": "27f50920-0da0-4432-b374-b01b04a06071",
   "owner": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",
