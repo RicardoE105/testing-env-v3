@@ -1,0 +1,25 @@
+{
+  "id": "jMIP5yqY1bmwatr3",
+  "name": "nikhil123",
+  "columns": [
+    {
+      "id": "9oQmb9OVNYovNhOm",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "5NGuHILRWNoBxLU7",
+      "name": "age",
+      "type": "string",
+      "index": 1
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "createdAt": "2026-01-21T16:40:02.898Z",
+  "updatedAt": "2026-01-21T16:40:20.480Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "kL2QWIxED5b7MiUe",
+  "name": "name",
+  "columns": [
+    {
+      "id": "bieco0FilJlEOviQ",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "D6hLWHyA7hlf0yY3",
+    "teamName": "nikhil2"
+  },
+  "createdAt": "2026-01-21T16:34:52.491Z",
+  "updatedAt": "2026-01-21T16:35:31.316Z"
+}
