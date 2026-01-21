@@ -1,0 +1,15 @@
+{
+  "id": "1gCjAxobNZwGGQ0B",
+  "name": "Jira SW Cloud account",
+  "type": "jiraSoftwareCloudApi",
+  "data": {
+    "email": "",
+    "apiToken": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "isGlobal": false
+}

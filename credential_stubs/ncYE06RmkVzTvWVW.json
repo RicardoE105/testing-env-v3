@@ -1,0 +1,15 @@
+{
+  "id": "ncYE06RmkVzTvWVW",
+  "name": "Action Network account",
+  "type": "actionNetworkApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "isGlobal": false
+}

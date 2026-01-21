@@ -1,0 +1,120 @@
+{
+  "id": "EfbA2DWiOxaEaY_WZQOYM",
+  "name": "nikhil 2",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "seconds"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -192,
+        0
+      ],
+      "id": "64465287-46d9-4330-b4e2-9a860564235d",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "category": "randomData",
+        "randomDataType": "email"
+      },
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        16,
+        0
+      ],
+      "id": "fbcada54-d8f3-4852-ba41-77570f66fca1",
+      "name": "DebugHelper"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "LhFEYvPJ8i1OhCqD",
+          "mode": "list",
+          "cachedResultName": "emails",
+          "cachedResultUrl": "/projects/8mpmPMbcqVbWrD3F/datatables/LhFEYvPJ8i1OhCqD"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "email": "={{ $json.email }}"
+          },
+          "matchingColumns": [
+            "email"
+          ],
+          "schema": [
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "67259d11-ef5e-4384-bb19-4507e2005bef",
+      "name": "Insert row"
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DebugHelper": {
+      "main": [
+        [
+          {
+            "node": "Insert row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "20dd4063-2229-472f-8ad2-a5d37f2443e0",
+  "owner": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
