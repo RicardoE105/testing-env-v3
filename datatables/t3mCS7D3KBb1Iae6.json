@@ -1,0 +1,19 @@
+{
+  "id": "t3mCS7D3KBb1Iae6",
+  "name": "nikhil987",
+  "columns": [
+    {
+      "id": "35ShVlJjifteKywY",
+      "name": "firstName",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "8mpmPMbcqVbWrD3F",
+    "teamName": "nikhil"
+  },
+  "createdAt": "2026-01-21T16:41:27.093Z",
+  "updatedAt": "2026-01-21T16:41:37.951Z"
+}
