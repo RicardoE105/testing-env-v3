@@ -1,0 +1,20 @@
+{
+  "id": "eIGaUsTkt5fzgQgQ",
+  "name": "boberts",
+  "columns": [
+    {
+      "id": "6dg88vzo3LtoVHwI",
+      "name": "schema",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "createdAt": "2026-01-21T07:36:23.962Z",
+  "updatedAt": "2026-01-21T07:36:29.465Z"
+}
