@@ -1,0 +1,20 @@
+{
+  "id": "7JUHUPrcAKDbPiGA",
+  "name": "dependency",
+  "columns": [
+    {
+      "id": "fFbLbGslOlbPtJyt",
+      "name": "some",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "cmSKUFnSEVLTtlcf",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "createdAt": "2026-01-26T18:03:57.970Z",
+  "updatedAt": "2026-01-26T18:04:04.271Z"
+}

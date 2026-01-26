@@ -29,6 +29,35 @@
       ],
       "id": "826b9630-a338-4f43-b317-44d579cca417",
       "name": "No Operation, do nothing"
+    },
+    {
+      "parameters": {
+        "project": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "issueType": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.jira",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "6279afe5-0ea2-4228-80ed-48b5d45ed37b",
+      "name": "Create an issue",
+      "credentials": {
+        "jiraSoftwareCloudApi": {
+          "id": "1gCjAxobNZwGGQ0B",
+          "name": "Jira SW Cloud account"
+        }
+      }
     }
   ],
   "connections": {
@@ -42,6 +71,17 @@
           }
         ]
       ]
+    },
+    "No Operation, do nothing": {
+      "main": [
+        [
+          {
+            "node": "Create an issue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -50,7 +90,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "5896f2a8-9345-46ce-9497-5e50dcce9782",
+  "versionId": "872d0a54-2fc5-4eec-ad17-ec2e0abc5bcd",
   "owner": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",
