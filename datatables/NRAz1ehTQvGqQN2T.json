@@ -1,19 +1,12 @@
 {
   "id": "NRAz1ehTQvGqQN2T",
   "name": "nikhil555",
-  "columns": [
-    {
-      "id": "l6DUyS63NTZRLqMx",
-      "name": "name",
-      "type": "string",
-      "index": 0
-    }
-  ],
+  "columns": [],
   "ownedBy": {
     "type": "team",
     "teamId": "8mpmPMbcqVbWrD3F",
     "teamName": "nikhil"
   },
   "createdAt": "2026-01-21T16:50:55.162Z",
-  "updatedAt": "2026-01-21T16:50:57.983Z"
+  "updatedAt": "2026-01-26T18:09:01.220Z"
 }
