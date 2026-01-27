@@ -1,0 +1,87 @@
+{
+  "id": "Pk6Wl8LhE0hku6mCF9GfK",
+  "name": "workflow using data tables",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6cbb76b9-1493-4c25-9cfd-bf1ea47598d4",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "R3JhpbmsXJeyaCkB",
+          "mode": "list",
+          "cachedResultName": "konsti",
+          "cachedResultUrl": "/projects/3YueEMbBWVBJQbNQ/datatables/R3JhpbmsXJeyaCkB"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "name": "Hello world"
+          },
+          "matchingColumns": [
+            "name"
+          ],
+          "schema": [
+            {
+              "id": "name",
+              "displayName": "name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "4f98592c-a20d-49f3-a5dc-2373ef68b2e5",
+      "name": "Insert row"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Insert row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "0a23356b-6985-47de-9183-ef4706002149",
+  "owner": {
+    "type": "team",
+    "teamId": "3YueEMbBWVBJQbNQ",
+    "teamName": "konsti"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

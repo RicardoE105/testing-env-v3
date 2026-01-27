@@ -1,0 +1,19 @@
+{
+  "id": "R3JhpbmsXJeyaCkB",
+  "name": "konsti",
+  "columns": [
+    {
+      "id": "r5UYK7V98klDOytm",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "3YueEMbBWVBJQbNQ",
+    "teamName": "konsti"
+  },
+  "createdAt": "2026-01-27T12:57:39.178Z",
+  "updatedAt": "2026-01-27T12:58:02.012Z"
+}

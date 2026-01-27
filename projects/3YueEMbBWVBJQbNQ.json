@@ -1,0 +1,16 @@
+{
+  "id": "3YueEMbBWVBJQbNQ",
+  "name": "konsti",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "3YueEMbBWVBJQbNQ",
+    "teamName": "konsti"
+  },
+  "variableStubs": []
+}
