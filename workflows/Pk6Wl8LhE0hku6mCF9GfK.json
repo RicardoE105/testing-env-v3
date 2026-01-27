@@ -25,7 +25,7 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "name": "Hello world"
+            "name": "=Hello world {{ $json.Name }}"
           },
           "matchingColumns": [
             "name"
@@ -55,10 +55,43 @@
       ],
       "id": "4f98592c-a20d-49f3-a5dc-2373ef68b2e5",
       "name": "Insert row"
+    },
+    {
+      "parameters": {
+        "formTitle": "Hello world",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Name"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.5,
+      "position": [
+        -80,
+        144
+      ],
+      "id": "646c7a78-8406-4f93-b39d-86fafa38a315",
+      "name": "On form submission",
+      "webhookId": "aa28405b-b45d-4a2a-bab3-bb7fabb195d9"
     }
   ],
   "connections": {
     "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Insert row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
       "main": [
         [
           {
@@ -75,8 +108,8 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "triggerCount": 0,
-  "versionId": "0a23356b-6985-47de-9183-ef4706002149",
+  "triggerCount": 1,
+  "versionId": "7e84673e-39a7-4fdb-9da7-c13f6d2da4e4",
   "owner": {
     "type": "team",
     "teamId": "3YueEMbBWVBJQbNQ",
