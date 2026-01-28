@@ -7,6 +7,12 @@
       "name": "name",
       "type": "string",
       "index": 0
+    },
+    {
+      "id": "f5BRY2Y9JWmm9WV3",
+      "name": "age",
+      "type": "number",
+      "index": 1
     }
   ],
   "ownedBy": {
@@ -15,5 +21,5 @@
     "teamName": "konsti"
   },
   "createdAt": "2026-01-27T12:57:39.178Z",
-  "updatedAt": "2026-01-27T13:37:12.246Z"
+  "updatedAt": "2026-01-28T14:21:12.342Z"
 }
